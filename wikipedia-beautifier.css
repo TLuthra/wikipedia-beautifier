@@ -15,7 +15,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#mw-head, #mw-panel {
+#mw-head, #mw-panel, #protected-icon {
     opacity: 0;
     -webkit-transition: all 400ms ease-in-out;
 }
@@ -27,7 +27,7 @@
 #firstHeading {
     font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
     width: 900px;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
@@ -41,9 +41,9 @@
     font-size: 1.0em;
     font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
     border: 1px solid #ccc;
-    width: 800px;
+    width: 90%;
     padding: 50px;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     margin-top: 1em;
     background: #fbfbfb;
@@ -64,3 +64,5 @@
 pre {
     overflow: auto;
 }
+
+hi { font-size:3em;}
